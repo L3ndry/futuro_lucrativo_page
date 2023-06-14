@@ -8,6 +8,7 @@ const buttonVariant = defineStyle({
 	minHeight: "none",
 	textAlign: "center",
 	width: "100%",
+    borderRadius: "75px"
 });
 
 export const buttonTheme = defineStyleConfig({

@@ -1,12 +1,12 @@
-import { Button as ChakraButton } from "@chakra-ui/react";
+import { ButtonProps, Button as ChakraButton } from "@chakra-ui/react";
 
-interface ButtonProps {
+interface CustomButtonProps extends ButtonProps {
 	text: string;
 }
 
-export function Button({ text }: ButtonProps) {
+export function Button({ text, ...props }: CustomButtonProps) {
 	return (
-		<ChakraButton h={{ base: "80px", md: "60px" }} variant={"buttonVariant"}>
+		<ChakraButton h={{ base: "80px", md: "60px" }} variant={"buttonVariant"} {...props} >
 			{text}
 		</ChakraButton>
 	);
