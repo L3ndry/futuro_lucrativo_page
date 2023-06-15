@@ -1,10 +1,10 @@
 import { Flex, Image, Text, Input } from "@chakra-ui/react";
-import { Button } from "../../../components/Button";
+import { Button } from "../../../../components/Button";
 
-import logoHeader from "../../../assets/logoHeader.svg";
-import mobileHeaderBackground from "../../../assets/mobile/headerBackground.svg";
-import desktopHeaderBackground from "../../../assets/desktop/headerBackground.svg";
-import calendarIcon from "../../../assets/calendarIcon.svg";
+import logoHeader from "../../../../assets/logoHeader.svg";
+import mobileHeaderBackground from "../../../../assets/mobile/headerBackground.svg";
+import desktopHeaderBackground from "../../../../assets/desktop/headerBackground.svg";
+import calendarIcon from "../../../../assets/calendarIcon.svg";
 
 export function HeaderSession() {
 	return (

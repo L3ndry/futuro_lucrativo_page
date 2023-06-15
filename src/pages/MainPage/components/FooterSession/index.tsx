@@ -1,7 +1,7 @@
 import { Flex, Text, Image } from "@chakra-ui/react";
-import { Button } from "../../../components/Button";
+import { Button } from "../../../../components/Button";
 
-import fotoFooter from "../../../assets/fotoFooter.svg";
+import fotoFooter from "../../../../assets/fotoFooter.svg";
 
 export function FooterSession() {
 	return (

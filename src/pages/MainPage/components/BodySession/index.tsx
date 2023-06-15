@@ -1,7 +1,7 @@
-import { Box, Flex, Text, Image, Center } from "@chakra-ui/react";
+import { Flex, Text, Image, Center } from "@chakra-ui/react";
 
-import notebookImg from "../../../assets/notebook.svg";
-import candlesBackground from "../../../assets/candlesBackground.svg";
+import notebookImg from "../../../../assets/notebook.svg";
+import candlesBackground from "../../../../assets/candlesBackground.svg";
 
 export function BodySession() {
 	return (
@@ -13,6 +13,7 @@ export function BodySession() {
 			w={"100%"}
 			h={"100%"}
 			alignItems={"center"}
+			gap={"110px"}
 		>
 			<Text color={"#FFFFFF"} w={"900px"} fontSize={"20px"} textAlign={"center"} lineHeight={"45px"}>
 				No dia <span style={{ color: "#6F55F2" }}>10 de julho ao meio dia</span>, vou realizar um{" "}
@@ -23,39 +24,43 @@ export function BodySession() {
 
 			<Center
 				flexDir={"column"}
-				w={"1000px"}
-				h={"200px"}
+				w={"70%"}
+				h={"250px"}
 				bgImage={"linear-gradient(to right, #FFFFFF05, #00000000 99%)"}
 				border={"1px solid #FFFFFF20"}
 				color={"#FFFFFF"}
 				textAlign={"center"}
 				borderRadius={"20px"}
+				fontSize={"30px"}
 			>
-				Vou compartilhar como o <span style={{ color: "#6F55F2" }}>Futuryxx 2.0</span> tem me ajudado a manter a
-				consistência em minhas operações e como ele pode fazer o mesmo por você.
+				<Text w={"50%"}>
+                    Vou compartilhar como o <span style={{ color: "#6F55F2" }}>Futuryxx 2.0</span> tem me ajudado a manter a
+                    consistência em minhas operações e como ele pode fazer o mesmo por você.
+                </Text>
 			</Center>
 
 			<Flex
-				w={"60%"}
-				h={"400px"}
+				w={"70%"}
+				h={"500px"}
 				border={"1px solid #FFFFFF20"}
 				justifyContent={"start"}
 				alignItems={"center"}
 				pos={"relative"}
 				borderRadius={"20px"}
+                bgImage={"linear-gradient(to right, #FFFFFF05, #00000000 99%)"}
 			>
-				<Box ml={"20px"}>
-					<Text color={"#6F55F2"}>Esse evento é exatamente para você que:</Text>
-					<ul style={{ listStyle: "none" }}>
+				<Flex flexDir={"column"} ml={"20px"} gap={"10px"}>
+					<Text color={"#6F55F2"} fontSize={"32px"}>Esse evento é exatamente para você que:</Text>
+					<ul style={{ listStyle: "none", fontSize: "23px", color: "#FFFFFF", lineHeight: "50px", fontWeight: "normal"}}>
 						<li>Não tem tempo para praticar</li>
 						<li>Precisa de retornos rápidos</li>
 						<li>Já cansou de estudar e não obter resultados</li>
 						<li>Tem medo e receio na hora de operar</li>
 						<li>Quer largar seu emprego atual ou começar uma nova vida</li>
 					</ul>
-				</Box>
+				</Flex>
 
-				<Image draggable={"false"} src={notebookImg} w={"55%"} pos={"absolute"} right={"-150px"} />
+				<Image draggable={"false"} src={notebookImg} w={"40%"} pos={"absolute"} right={"-70px"} />
 			</Flex>
 		</Flex>
 	);

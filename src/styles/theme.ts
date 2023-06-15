@@ -8,6 +8,7 @@ export const theme = extendTheme({
 
 	colors: {
 		bgMainColor: "#03010A",
+        secondaryColor: "#6F55F2",
 		buttonColor: "#8A6AF8",
 		inputColor: "#030108",
 

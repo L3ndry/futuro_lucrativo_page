@@ -1,13 +1,14 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { MainPage } from "./pages/MainPage";
+import { GroupPage } from "./pages/GroupPage";
 import { theme } from "./styles/theme";
 
-function App() {
+export default function App() {
 	return (
 		<ChakraProvider resetCSS theme={theme}>
 			<MainPage />
+            <GroupPage />
 		</ChakraProvider>
 	);
 }
 
-export default App;
