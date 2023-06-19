@@ -3,7 +3,9 @@ import { buttonTheme } from "./button";
 
 export const theme = extendTheme({
 	fonts: {
-		main: "",
+		heading: `'Montserrat', 'sans-serif'`,
+        body: `'Montserrat', 'sans-serif'`,
+        subtitle: `'Montserrat', 'sans-serif'`,
 	},
 
 	colors: {

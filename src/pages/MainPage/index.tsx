@@ -7,7 +7,12 @@ import { FooterSession } from "./components/FooterSession";
 
 export function MainPage() {
 	return (
-		<Flex flexDir={"column"} bgColor={"bgMainColor"} gap={"50px"} overflowX={"hidden"}>
+		<Flex
+			flexDir={"column"}
+			bgColor={"bgMainColor"}
+			gap={"50px"}
+			overflowX={"hidden"}
+		>
 			{/* Sessions */}
 			<HeaderSession />
 			<BodySession />
