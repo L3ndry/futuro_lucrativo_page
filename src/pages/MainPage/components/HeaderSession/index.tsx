@@ -9,7 +9,6 @@ import calendarIcon from "../../../../assets/calendarIcon.svg";
 export function HeaderSession() {
 	return (
 		<Flex
-			// bgColor={"red"}
 			flexDir={"column"}
 			bgImage={{ base: mobileHeaderBackground, md: desktopHeaderBackground }}
 			bgSize={{ base: "contain", md: "cover" }}
@@ -21,7 +20,6 @@ export function HeaderSession() {
 			pt={"3%"}
 		>
 			<Flex
-				// bgColor={"red"}
 				flexDir={"column"}
 				justifyContent={"space-between"}
 				alignItems={{ base: "center", md: "start" }}
@@ -32,7 +30,6 @@ export function HeaderSession() {
 				gap={"5px"}
 			>
 				<Image
-					// bgColor={"red"}
 					src={logoHeader}
 					alt={"Logo Header"}
 					w={"37%"}

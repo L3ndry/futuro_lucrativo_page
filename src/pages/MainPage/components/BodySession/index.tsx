@@ -15,6 +15,18 @@ export function BodySession() {
 			h={"100%"}
 			alignItems={"center"}
 			gap={{ base: "10vh", md: "13vh" }}
+			css={{
+				"&::-webkit-scrollbar": {
+					width: "4px",
+				},
+				"&::-webkit-scrollbar-track": {
+					width: "6px",
+				},
+				"&::-webkit-scrollbar-thumb": {
+					background: "#fff",
+					borderRadius: "24px",
+				},
+			}}
 		>
 			<Text
 				color={"#FFFFFF"}
