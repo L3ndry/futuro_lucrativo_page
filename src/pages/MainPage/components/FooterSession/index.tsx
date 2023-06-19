@@ -21,7 +21,7 @@ export function FooterSession() {
 					consistência em minhas operações e estou aqui para compartilhar isso com você.
 				</Text>
                 <Spacer /> <Spacer />
-				<Button w={{base: "90%", md: "auto"}} variant={"buttonVariant"} text={"QUERO ME INSCREVER GRATUITAMENTE"} fontSize={"0.7rem"} fontWeight={"bold"} h={{base: "6vh", md: "6vh"}} />
+				<Button w={"90%"} variant={"buttonVariant"} text={"QUERO ME INSCREVER GRATUITAMENTE"} fontSize={"0.7rem"} fontWeight={"bold"} h={{base: "6vh", md: "6vh"}} />
 			</Flex>
 		</Flex>
 	);
